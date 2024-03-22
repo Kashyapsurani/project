@@ -1,217 +1,204 @@
-body{
-    margin: 0px;
+body {
+  margin: 0px;
 }
 
-.hading{
-    color: red;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
+.hading {
+  color: red;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0%;
+}
+
+.restorant {
+  border: 2px solid black;
+  background: gray;
+  border-radius: 25px;
+  width: 100%;
+  height: 100px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+.rimg {
+  width: 60px;
+  margin-top: 2px;
+  height: 50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.p {
+  margin-right: 25px;
+  color: white;
+}
+p {
+  border: none;
+}
+
+.p:hover {
+  border-radius: 25px;
+  background: red;
+}
+
+.mainpage {
+  display: flex;
+  justify-content: center;
+}
+.MAINPAGE {
+  border: 2px solid gray;
+  border-radius: 25px;
+}
+
+.Mainpage {
+  display: flex;
+  justify-content: center;
+}
+h6 {
+  background: rgb(255, 255, 0);
+  width: 90px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: small;
+  border-radius: 25px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+a{
+    text-decoration:none;
+}
+
+h6:hover {
+  background: red;
+  border-radius: 25px;
+}
+.ii {
+  display: flex;
+  justify-content: space-evenly;
+}
+.imgs {
+  border-radius: 25px;
+  width: auto;
+  width: 500px;
+  height: 200px;
+}
+.i {
+  border-radius: 25px;
+  width: 100%;
+  height: 200px;
+  box-shadow: 0 60px 80px rgba(0, 0, 0, 0.6), 0 45px 26px rgba(0, 0, 0, 0.14);
+}
+
+
+.Imgs {
+  border-radius: 25px;
+  width: 500px;
+  height: 200px;
+  box-shadow: 0 60px 80px rgba(0, 0, 0, 0.6), 0 45px 26px rgba(0, 0, 0, 0.14);
+}
+.odder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cantenar {
+  width: 38%;
+  height: 425px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  flex-wrap: nowrap;
+}
+.cantenars {
+  width: 38%;
+  height: 425px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 1325px) {
+  .odder {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0%;
-}
-
-.restorant{
-    border: 2px solid black;
-    background:gray;
-    border-radius:  25px;
+    flex-wrap: wrap;
+  }
+  .cantenar {
+    height: 280px;
+    width: 38%;
+  }
+  .cantenars {
+    height: auto;
     width: 100%;
-    height: 100px;
-  
-    
+  }
+  .ii {
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+  }
 }
-.img{
+
+@media screen and (max-width: 425px) {
+  .odder {
     display: flex;
     justify-content: center;
-}
-.rimg{
-    width: 60px;
-    margin-top: 2px;
-    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .cantenar {
+    height: 280px;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .cantenars {
+    height: auto;
+    width: 100%;
+  }
+  .ii {
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+  }
 }
 
-.nav{
+@media screen and (max-width: 337px) {
+  .odder {
     display: flex;
     justify-content: center;
-    
-}
-.p{
-    margin-right: 25px;
-    color: white;
-
-}
-p{
-    border: none;
-}
-
-.p:hover{
-   border-radius: 25px;
-    background: red;
-}
-
-.mainpage{
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .cantenar {
+    height: 280px;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .cantenars {
+    height: auto;
+    width: 100%;
+  }
+  .ii {
     display: flex;
-    justify-content: center;
-}
-.MAINPAGE{
-    border: 2px solid gray;
-    border-radius:25px ;
-}
+    flex-wrap: wrap;
+    height: 700px;
+  }
 
-.Mainpage{
-    display: flex;
-    justify-content: center;
-}
-h6{
-    background: rgb(255, 255, 0);
-    width: 90px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left:5px ;
-    font-size: small;
+  .imgs {
     border-radius: 25px;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-h6:hover{
-    background: red;
-    border-radius: 25px;
-}
-.ii{
-    display: flex;
-    justify-content:space-evenly;
-}
-.imgs{
-    border-radius:25px ; 
     width: auto;
     width: 500px;
     height: 200px;
+  }
 }
-.i{
-    border-radius: 25px;
-    width: 100%;
-    height: 200px;
-    box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14);
-   }
-
-.Imgs{
-    border-radius: 25px;
-    width: 500px;
-    height: 200px;
-    box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14);
-}
-.odder{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-}
-
-.cantenar{
-    width: 38%;
-    height: 425px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0,
-    0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    flex-wrap: nowrap;
-}
-.cantenars{
-    width: 38%;
-    height: 425px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0,
-    0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    flex-wrap: nowrap;
-}
-
-
-@media screen and  (max-width: 1325px) {
-
-    .odder{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       flex-wrap: wrap;
-       
-    }
-    .cantenar{
-        height: 280px;
-        width: 38%;
-       
-    }
-    .cantenars{
-        height: auto;
-        width: 100%;
-       
-    }
-    .ii{
-        display: flex;
-        flex-wrap: wrap;
-        height: 700px;
-    }
-}
-
-@media screen and  (max-width: 425px) {
-
-    .odder{
-        display: flex;
-        justify-content: center;
-        justify-content: space-around;
-        align-items: center;
-       flex-wrap: wrap;
-       
-    }
-    .cantenar{
-        height: 280px;
-        width: 100%;
-       margin-bottom: 100px;
-    }
-    .cantenars{
-        height: auto;
-        width: 100%;
-       
-    }
-    .ii{
-        display: flex;
-        flex-wrap: wrap;
-        height: 700px
-        }
-
-     
-}
-
-@media screen and  (max-width: 337px) {
-
-    .odder{
-        display: flex;
-        justify-content: center;
-        justify-content: space-around;
-        align-items: center;
-       flex-wrap: wrap;
-       
-    }
-    .cantenar{
-        height: 280px;
-        width: 100%;
-       margin-bottom: 100px;
-    }
-    .cantenars{
-        height: auto;
-        width: 100%;
-       
-    }
-    .ii{
-        display: flex;
-        flex-wrap: wrap;
-        height: 700px
-        }
-
-        .imgs{
-            border-radius:25px ; 
-            width: auto;
-            width: 500px;
-            height: 200px;
-        }
-        
-}
-
